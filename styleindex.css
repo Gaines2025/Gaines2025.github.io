@@ -1,39 +1,6 @@
   <style>
-    /* General styles */
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    /* Header container */
-    .header {
-      background-color: #333;
-      color: white;
-      padding: 10px 20px;
-    }
-
-    /* Navigation menu styles */
-    .nav {
-      display: flex;
-      justify-content: space-around;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    .nav li {
-      display: inline;
-    }
-
-    .nav a {
-      color: white;
-      text-decoration: none;
-      padding: 10px 20px;
-      display: inline-block;
-      transition: background-color 0.3s;
-    }
-
-    .nav a:hover {
-      background-color: #575757;
+    body 
+    {
+      background-color: red;
     }
   </style>
