@@ -7,7 +7,15 @@
 </head>
 <body>
     <!-- Include the navbar from viewheader.html -->
-    <iframe src="viewheader.html"></iframe>
+    <div id="navbar-container"></div>
+    <script>
+        fetch('viewheader.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading header:', error));
+    </script>
 
     <!-- Main Content -->
     <div style="text-align: center; margin-top: 20px;">
@@ -19,9 +27,9 @@
     </div>
     <div style="text-align: center;">
         <p>This website is for people who want to know more about me! The links above have further information about myself and who I am and what I can offer.</p>
-        <p><a href="projects.html">Projects</a>
-        <p><a href="aboutMe.html">About Me</a>
-        <p><a href="skillSets.html">Skill Sets</a>
+        <p><a href="projects.html">Projects</a></p>
+        <p><a href="aboutMe.html">About Me</a></p>
+        <p><a href="skillSets.html">Skill Sets</a></p>
     </div>
 </body>
 </html>
