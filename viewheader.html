@@ -1,16 +1,44 @@
-<div class="collapse navbar-collapse" id="navver">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="aboutMe.html">About Me</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="skillSets.html">Skill Sets</a>
-            </li>
-        </ul>
-    </div>
+<!-- HTML content for the navigation bar -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+        }
+            
+        .navbar {
+            background-color: #4CAF50;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-size: 1.1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="/">Home</a>
+        <a href="about-me.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skill Sets</a>
+    </nav>
+</body>
+</html>
