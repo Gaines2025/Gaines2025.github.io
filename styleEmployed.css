@@ -1,26 +1,39 @@
-body 
-{
+/* styleEmployed.css */
+
+/* General body styling */
+body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column; /* Ensures elements are stacked vertically */
+    justify-content: flex-start;
     align-items: center;
     height: 100vh;
     background-color: #f4f4f4;
 }
 
-
-.resume-box
-{
-    width: 50%;
-    height: 50%;
-    border: 2px solid #007bff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+/* Navbar container styling */
+#navbar-container {
+    width: 100%;
+    background-color: #007bff; /* Navbar background */
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
 
-iframe 
-{
+/* Resume box styling */
+.resume-box {
+    width: 50%; /* Set width to 50% of the screen */
+    height: 50%; /* Set height to 50% of the screen */
+    border: 2px solid #007bff; /* Blue border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #ffffff; /* White background for clarity */
+    margin-top: 20px; /* Space between navbar and resume box */
+}
+
+/* Styling for iframe */
+iframe {
     width: 100%;
     height: 100%;
-    border: none;
+    border: none; /* Remove iframe border */
 }
