@@ -1,4 +1,26 @@
 body
 {
-  background-color: grey
+  background-color: blue
+}
+
+.head2 {
+  font-family: 'Georgia', serif;
+  color: #343a40; /* Dark gray */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.smallText {
+  font-family: 'Arial', sans-serif;
+  color: #555;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+head2, .smallText {
+  margin-top: 15px;
+  padding-left: 5px;
 }
