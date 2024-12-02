@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Viewer</title>
+  <!-- Link to the external CSS file -->
+  <link rel="stylesheet" href="styleEmployed.css">
+</head>
 <body>
     <div id="navbar-container"></div>
     <script>
@@ -9,6 +18,11 @@
             .catch(error => console.error('Error loading header:', error));
     </script>
 
-  <p>Projects</p>
+  <div class="resume-box">
+    <iframe 
+      src="Resume.pdf" 
+      title="Resume Document">
+    </iframe>
+  </div>
 </body>
-
+</html>
