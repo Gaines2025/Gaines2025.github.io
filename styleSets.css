@@ -1,1 +1,77 @@
 
+/* styleSets.css */
+
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    color: #343a40; /* Dark text */
+}
+
+/* Navbar container styling */
+#navbar-container {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Container spacing */
+.container {
+    background: #ffffff; /* White background for content */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Section titles */
+h2 {
+    color: #495057; /* Slightly darker gray */
+    border-bottom: 2px solid #6c757d; /* Gray underline */
+    padding-bottom: 5px;
+}
+
+/* Accordion header styles */
+.accordion-button {
+    background-color: #e9ecef; /* Light gray */
+    color: #495057; /* Dark gray text */
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.accordion-button:hover {
+    background-color: #007bff; /* Blue hover */
+    color: white; /* White text on hover */
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #007bff; /* Blue background when open */
+    color: white; /* White text when open */
+}
+
+/* Accordion body styles */
+.accordion-body {
+    background-color: #f8f9fa; /* Light gray */
+    border-top: 2px solid #e9ecef; /* Border between header and body */
+    padding: 15px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Accordion item border */
+.accordion-item {
+    border: none; /* Remove border around accordion items */
+}
+
+/* List styles inside accordions */
+.accordion-body ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.accordion-body ul li {
+    margin-bottom: 5px;
+    color: #343a40;
+}
