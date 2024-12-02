@@ -1,2 +1,14 @@
-<iframe src="viewheader.html" style="width: 100%; height: 60px; border: none;"></iframe>
-<p>Projects</p>
+<body>
+    <div id="navbar-container"></div>
+    <script>
+        fetch('viewheader.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading header:', error));
+    </script>
+
+  <p>Projects</p>
+</body>
+
